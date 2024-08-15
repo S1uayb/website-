@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein Fitness Studio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .header-image {
+            height: 50vh;
+            width: 100%;
+            object-fit: cover;
+            position: relative;
+            filter: brightness(0.5);
+        }
+        .container {
+            position: absolute;
+            right: 32px;
+            top: 16px;
+            z-index: 10;
+        }
+        .container a {
+            margin-left: 16px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            background-color: rgba(199, 199, 202, 0.5);
+            padding: 8px 16px;
+            border-radius: 4px;
+        }
+        .logo {
+            position: absolute;
+            left: 32px;
+            top: 20px;
+            z-index: 10;
+            height: 75px;
+        }
+        .content-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 20px;
+        }
+        .content-container img {
+            max-width: 45%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .content-container .text {
+            max-width: 50%;
+            padding: 0 20px;
+        }
+        .content-container h1 {
+            text-align: left;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .content-container p {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+    </style>
+</head>
+<body> 
+    <img class="header-image" src="https://cdn.pixabay.com/photo/2016/03/27/23/00/weight-lifting-1284616_640.jpg">
+    <div class="container">
+        <a href="#">Home</a>
+        <a href="#">Kontakt</a>
+        <a href="#">Impressum</a>
+        <a href="#">Anruf</a>
+    </div>
+    <img src="https://i.pinimg.com/originals/9e/97/7e/9e977eafbd85f3fb5a7a03dc05762ad2.jpg" class="logo" alt="Logo">
+    
+    <div class="content-container">
+        <div class="text">
+            <h1>Über uns</h1>
+            <p>Bei Fitness dreht sich alles um deine Fitness und dein Wohlbefinden.<br>
+                Wir sind ein engagiertes Team von Fitness-Experten, die sich darauf spezialisiert haben, 
+                individuelle Trainingspläne und Ernährungsprogramme zu erstellen, die perfekt auf deine Ziele abgestimmt sind.
+                <br><br>
+                Unser Ziel ist es, dich auf deinem Weg zu einem gesünderen und aktiveren Leben zu unterstützen. 
+                Egal, ob du Muskeln aufbauen, abnehmen oder einfach fitter werden möchtest – wir sind hier, um dir zu helfen. 
+                Bei Fitnits glauben wir, dass Fitness für jeden zugänglich sein sollte, unabhängig von Alter, Fitnesslevel oder Erfahrung.
+                <br><br>
+                Mit unseren modernen Trainingsmethoden und motivierenden Coaches bieten wir dir die Werkzeuge und die Unterstützung, 
+                die du brauchst, um deine Fitnessziele zu erreichen. Werde Teil der Fitnits-Community und starte noch heute in ein gesünderes Leben!
+            </p>
+        </div>
+        <img src="https://cdn.pixabay.com/photo/2014/11/17/13/17/crossfit-534615_640.jpg" alt="Fitness Image">
+    </div>
+</body>
+</html>
